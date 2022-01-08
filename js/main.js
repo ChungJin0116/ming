@@ -9,6 +9,7 @@ $(document).ready(function(){
 
     setTimeout(function(){
 		$(".loading").fadeOut(1100);
+		$('body').removeClass('active');
 	}, 7000);
 
 	setTimeout(function(){
