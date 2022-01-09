@@ -45,11 +45,9 @@
 /* 밍턴 info */
 .info_area {position:relative; z-index:4; overflow:hidden;}
 .ming_info {margin-top:200px;}
-.ming_info .ming_thumb {width:300px; height:300px; border:1px solid #FFFFFF; padding:50px; box-sizing:border-box; transform:rotate(45deg); margin:0 auto;}
-.ming_info .ming_thumb .mingturn {position:relative; width:198px; height:198px; background:#FFFFFF; transition:all .5s;}
-.ming_info .ming_thumb .mingturn.active {transform:rotate(-45deg) scale(18);}
-.ming_info .ming_thumb .mingturn span {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-45deg); font-family:'Noto Sans KR'; font-weight:700; font-size:20px;}
-.ming_info .ming_thumb .mingturn.active span {transform:translate(-50%, -50%) rotate(0); opacity:0;}
+.ming_info .ming_thumb {width:300px; height:300px; border:1px solid #FFFFFF; padding:25px; box-sizing:border-box; transform:rotate(45deg); margin:0 auto;}
+.ming_info .ming_thumb .mingturn {position:relative; width:248px; height:248px; background:url(../images/main/ming_mini.png) center no-repeat; background-size:cover; transition:all .5s;}
+.ming_info .ming_thumb .mingturn.active {transform:rotate(-45deg) scale(18); background:#FFFFFF;}
 .ming_info .ming_tit { margin-top:75px; text-align:center;}
 .ming_info .ming_tit span {font-family:'Noto Sans KR'; font-weight:700; font-size:12px; line-height:20px; color:#FFFFFF;}
 
